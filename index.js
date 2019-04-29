@@ -1,8 +1,8 @@
 
-function takeANumber(currentline, new_name){
-  currentline.push(new_name);      // was  KatzDeliLine.push
-  return("Welcome, " + new_name + ". You are number " + (currentline.length) + " in line.")     // dont need + b/c pushed new name, increased length. 
-}
+// function takeANumber(currentline, new_name){
+//   currentline.push(new_name);      // was  KatzDeliLine.push
+//   return("Welcome, " + new_name + ". You are number " + (currentline.length) + " in line.")     // dont need + b/c pushed new name, increased length. 
+// }
 
 
 function nowServing(currentline){
