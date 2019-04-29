@@ -4,6 +4,15 @@
 //   return("Welcome, " + new_name + ". You are number " + (currentline.length) + " in line.")     // dont need + b/c pushed new name, increased length. 
 // }
 
+var  latestTicketNumber = 0; 
+
+function takeANumber(numbersLine){
+  numbersLine.push( latestTicketNumber++) 
+  return("Welcome, You are number " + latestTicketNumber + " in line.")  
+}
+
+
+
 
 function nowServing(currentline){
   
