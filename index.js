@@ -13,7 +13,7 @@ function nowServing(currentline){
     var currentCustomer = currentline[0]
     currentline.shift();   // was KatzDeliLine.shift()
     return("Currently serving " + currentCustomer + ".")  // was currentline[0]
-    //  return("Currently serving " + currentline.shift() + ".")
+    //  return("Currently serving " + currentline.shift(); + ".")
     //a way to do without holder variable ? Hmm... 
   }
 
